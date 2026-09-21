@@ -96,5 +96,11 @@ def _(mo, n):
     return
 
 
+@app.function
+def test_large_values():
+    assert fibonacci(100000) > 1000000
+    assert fibonacci(1000000) > fibonacci(999999)
+
+
 if __name__ == "__main__":
     app.run()
