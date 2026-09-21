@@ -4,6 +4,14 @@ __generated_with = "0.24.2"
 app = marimo.App(width="medium")
 
 
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    This notebook is my first marimo notebook. Its purpose is to make me manipulate marimo but also the TDD. I will try these functionalities with a classic fibonacci function.
+    """)
+    return
+
+
 @app.cell
 def _():
     import marimo as mo
@@ -14,7 +22,7 @@ def _():
 @app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-    définition de la fonction fibonacci
+    Definition of the Fibonacci's function
     """)
     return
 
@@ -38,7 +46,7 @@ def fibonacci(n:int):
 @app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-    et définition des tests
+    Definition of the tests
     """)
     return
 
@@ -65,8 +73,26 @@ def test_fibonacci_multiple():
     assert fibonacci(6) == 8
 
 
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    definition of a widget
+    """)
+    return
+
+
 @app.cell
-def _():
+def _(mo):
+    n = mo.ui.number(start=0, stop=1000, value = 5)
+    n
+    return (n,)
+
+
+@app.cell
+def _(mo, n):
+    mo.md(f"""
+    Fibonacci({n.value}) = **{fibonacci(int(n.value))}**
+    """)
     return
 
 
