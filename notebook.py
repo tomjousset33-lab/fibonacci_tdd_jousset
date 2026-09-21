@@ -21,7 +21,18 @@ def _(mo):
 
 @app.function
 def fibonacci(n:int):
-    pass
+    if n == 0:
+        return 0
+    if n == 1 :
+        return 1
+        
+    f0 = 0
+    f1 = 1
+    for i in range(2, n+1):
+        fn= f0 + f1
+        f0 = f1
+        f1 = fn
+    return fn
 
 
 @app.cell(hide_code=True)
@@ -44,6 +55,14 @@ def _():
         assert fibonacci(3) == 2
 
     return
+
+
+@app.function
+def test_fibonacci_multiple():
+    assert fibonacci(3) == 2
+    assert fibonacci(4) == 3
+    assert fibonacci(5) == 5
+    assert fibonacci(6) == 8
 
 
 if __name__ == "__main__":
