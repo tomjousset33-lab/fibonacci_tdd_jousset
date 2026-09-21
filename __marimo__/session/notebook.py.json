@@ -7,6 +7,19 @@
   "cells": [
     {
       "id": "Hbol",
+      "code_hash": "83343db3361d0a3c736f48e69554d0fa",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">This notebook is my first marimo notebook. Its purpose is to make me manipulate marimo but also the TDD. I will try these functionalities with a classic fibonacci function.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
       "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
       "outputs": [
         {
@@ -19,21 +32,21 @@
       "console": []
     },
     {
-      "id": "MJUe",
-      "code_hash": "42f8bcc657f4654a8551ec85fb124a8a",
+      "id": "vblA",
+      "code_hash": "36ab012e914573b9173f91826c793f46",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">d\u00e9finition de la fonction fibonacci</span></span>"
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Definition of the Fibonacci's function</span></span>"
           }
         }
       ],
       "console": []
     },
     {
-      "id": "vblA",
-      "code_hash": "2cb7aff672d37e0818ae216960d221b2",
+      "id": "bkHC",
+      "code_hash": "07bef8235779da49dc67d68c9a67cce9",
       "outputs": [
         {
           "type": "data",
@@ -45,34 +58,67 @@
       "console": []
     },
     {
-      "id": "IhSI",
-      "code_hash": "4a46d5eb9bb7d714f77f4ebd9ff28c9b",
+      "id": "lEQa",
+      "code_hash": "cfc2eecbfb879c36747579171879e4cd",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">et d\u00e9finition des tests</span></span>"
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Definition of the tests</span></span>"
           }
         }
       ],
       "console": []
     },
     {
-      "id": "ldAD",
-      "code_hash": null,
+      "id": "PKri",
+      "code_hash": "94fed6b206ef23185abd176bd33bfad5",
       "outputs": [],
       "console": []
     },
     {
-      "id": "WMMN",
-      "code_hash": null,
+      "id": "Xref",
+      "code_hash": "08e103124e552c7046f050e73edc3ff8",
       "outputs": [],
       "console": []
     },
     {
-      "id": "qpAG",
-      "code_hash": null,
-      "outputs": [],
+      "id": "SFPL",
+      "code_hash": "95243d2f00d99926b16bf2e74e01bfae",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">definition of a widget</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "8bef27e31f8b249f466fe528141aa156",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='BYtC-0' random-id='498b4574-5bde-8ce6-54f5-1f1b291a0792'><marimo-number data-initial-value='5' data-label='null' data-start='0' data-stop='1000' data-debounce='false' data-full-width='false' data-disabled='false'></marimo-number></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "8f3df4c446bc7450814d6a0e1808b98c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Fibonacci(12) = <strong>144</strong></span></span>"
+          }
+        }
+      ],
       "console": []
     }
   ]
