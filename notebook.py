@@ -65,5 +65,10 @@ def test_fibonacci_multiple():
     assert fibonacci(6) == 8
 
 
+@app.cell
+def _():
+    return
+
+
 if __name__ == "__main__":
     app.run()
