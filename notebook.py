@@ -20,14 +20,30 @@ def _(mo):
 
 
 @app.function
-def fibonacci(n):
-    f_0 = 0
-    f_1 = 1
-    for i in range (n>=2):
-        f_n = f_0 + f_1
-        f_0 = f_1
-        f_1 = f_n
-    return (f_n)
+def fibonacci(n:int):
+    pass
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    et définition des tests
+    """)
+    return
+
+
+@app.cell
+def _():
+    def test_fibonacci_0():
+        assert fibonacci(0) == 0
+
+    def test_fibonacci_1():
+        assert fibonacci(1) == 1
+
+    def test_fibonacci_3():
+        assert fibonacci(3) == 2
+
+    return
 
 
 if __name__ == "__main__":
