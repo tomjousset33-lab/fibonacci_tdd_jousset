@@ -45,8 +45,21 @@
       "console": []
     },
     {
+      "id": "VVrj",
+      "code_hash": "b302be3bb33ad6327338164a3ef8ef6d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Now that we want to optimize the computation time of the execution of Fibonacci's function on large values, we need to refactor our function. That's why we used fast_doubling here. This method permits to reduce the complexity from O(n) to O(log n), by dividing the main computation by two others computation. For n=1000000, we will only have to deal with log2(1000000) levels of recursion (about 20) instead of 1000000 iterations !</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
       "id": "bkHC",
-      "code_hash": "07bef8235779da49dc67d68c9a67cce9",
+      "code_hash": "988c0d0d4d4f8187f9e3cec5d0b3227e",
       "outputs": [
         {
           "type": "data",
@@ -102,7 +115,7 @@
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='BYtC-0' random-id='498b4574-5bde-8ce6-54f5-1f1b291a0792'><marimo-number data-initial-value='5' data-label='null' data-start='0' data-stop='1000' data-debounce='false' data-full-width='false' data-disabled='false'></marimo-number></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='BYtC-0' random-id='64e0113e-5749-ed46-5e9b-8a34918348bb'><marimo-number data-initial-value='5' data-label='null' data-start='0' data-stop='1000' data-debounce='false' data-full-width='false' data-disabled='false'></marimo-number></marimo-ui-element>"
           }
         }
       ],
@@ -115,16 +128,43 @@
         {
           "type": "data",
           "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Fibonacci(12) = <strong>144</strong></span></span>"
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Fibonacci(5) = <strong>5</strong></span></span>"
           }
         }
       ],
       "console": []
     },
     {
-      "id": "VlYO",
-      "code_hash": null,
-      "outputs": [],
+      "id": "Kclp",
+      "code_hash": "4c8b8e88136413c9fc5eb9ca86366458",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\u001b[32m.\u001b[0m\u001b[32m                                                                        [100%]\u001b[0m\n================================== Overview ===================================\nPassed Tests:\n\u001b[1m\u001b[32m\u001b[22m\u2713\u001b[0m\u001b[0m notebook.py::test_large_values\n\nSummary:\nTotal: 1, Passed: 1, Failed: 0, Errors: 0, Skipped: 0\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "peqm",
+      "code_hash": "e095ff494cff8031f1fb2b89c8be3d13",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Before optimization, the time to pass all the tests was more than 15 seconds and now it is done in a one second time ! This optimization is huge.</span></span>"
+          }
+        }
+      ],
       "console": []
     }
   ]
