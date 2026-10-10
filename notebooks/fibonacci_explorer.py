@@ -7,7 +7,9 @@ app = marimo.App(width="medium")
 @app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-    This notebook is my first marimo notebook. Its purpose is to make me manipulate marimo but also the TDD. I will try these functionalities with a classic fibonacci function.
+    This notebook is my first marimo notebook. Its purpose is to make me
+    manipulate marimo but also the TDD. I will try these functionalities
+    with a classic fibonacci function.
     """)
 
 
@@ -28,7 +30,13 @@ def _(mo):
 @app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-    Now that we want to optimize the computation time of the execution of Fibonacci's function on large values, we need to refactor our function. That's why we used fast_doubling here. This method permits to reduce the complexity from O(n) to O(log n), by dividing the main computation by two others computation. For n=1000000, we will only have to deal with log2(1000000) levels of recursion (about 20) instead of 1000000 iterations !
+    Now that we want to optimize the computation time 
+    of the execution of Fibonacci's function on large values, 
+    we need to refactor our function. That's why we used fast_doubling here. 
+    This method permits to reduce the complexity from O(n) to O(log n), 
+    by dividing the main computation by two others computation. 
+    For n=1000000, we will only have to deal with log2(1000000)
+    levels of recursion (about 20) instead of 1000000 iterations !
     """)
 
 
@@ -73,7 +81,6 @@ def _():
         assert fibonacci(3) == 2
 
 
-
 @app.function
 def test_fibonacci_multiple():
     assert fibonacci(3) == 2
@@ -91,7 +98,7 @@ def _(mo):
 
 @app.cell
 def _(mo):
-    n = mo.ui.number(start=0, stop=1000, value = 5)
+    n = mo.ui.number(start=0, stop=1000, value=5)
     n
     return (n,)
 
@@ -112,7 +119,10 @@ def test_large_values():
 @app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-    Before optimization, the time to pass all the tests was more than 15 seconds and now it is done in a one second time ! This optimization is huge.
+    Before optimization, the time to pass all the tests was 
+    more than 15 seconds and now 
+    it is done in a one second time !
+    This optimization is huge.
     """)
 
 
