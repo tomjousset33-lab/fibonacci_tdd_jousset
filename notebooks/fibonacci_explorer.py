@@ -15,7 +15,7 @@ app = marimo.App(width="medium")
 
 @app.cell(hide_code=True)
 def _(mo):
-    
+
     mo.md(r"""
     This notebook is my first marimo notebook. Its purpose is to make me
     manipulate marimo but also the TDD. I will try these functionalities
